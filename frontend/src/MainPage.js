@@ -21,7 +21,7 @@ const MainPage = () => {
     useEffect(() => {
       const loadModel = async () => {
         try {
-          const model = await tf.loadLayersModel('http://localhost:4000/model.json');
+          const model = await tf.loadLayersModel('https://tumor-detection-model-api.vercel.app/model.json');
           setModel(model);
           console.log('Model Loaded');
         } catch (error) {
