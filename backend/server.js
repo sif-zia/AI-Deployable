@@ -21,7 +21,7 @@ app.get('/group1-shard*', (req, res) => {
 
 // Say hello to the user
 app.get('/', (req, res) => {
-  res.send('Hello, user!');
+  res.json('Hello, user!');
 });
 
 // Start the server
