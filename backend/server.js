@@ -19,6 +19,11 @@ app.get('/group1-shard*', (req, res) => {
   res.sendFile(path.join(__dirname, 'ModelInJSON', `group1-shard${shardNumber}`));
 });
 
+// Say hello to the user
+app.get('/', (req, res) => {
+  res.send('Hello, user!');
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
