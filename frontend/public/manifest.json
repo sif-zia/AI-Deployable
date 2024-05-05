@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tumor Detection",
+  "name": "Brain Tumor Detection Model App",
   "icons": [
     {
       "src": "favicon.ico",
